@@ -1,6 +1,6 @@
 #!/usr/bin/env python3 
-# instagram: turkerarabacii 
-# github : https://github.com/tfkaradam
+# -*-coding: utf-8 -*-
+
 
 import os 
 import sys
@@ -13,41 +13,48 @@ os.system("clear")
 
 logo =  """
 \33[93m
-    *******************************************************
     *********************************************************
-    ***  _____         _                          _       ***
-_  __    _    ____      _    ____    _    __  __
-| |/ /   / \  |  _ \    / \  |  _ \  / \  |  \/  |
-| ' /   / _ \ | |_) |  / _ \ | | | |/ _ \ | |\/| |
-| . \  / ___ \|  _ <  / ___ \| |_| / ___ \| |  | |
-|_|\_\/_/   \_\_| \_\/_/   \_\____/_/   \_\_|  |_|
-    ***                                                   ***
-    ***         K A R A D A M => V1.0        ***
+    *********************************************************
+      _                       _
+     | | ____ _ _ __ __ _  __| | __ _ _ __ ___
+     | |/ / _` | '__/ _` |/ _` |/ _` | '_ ` _ \
+     |   < (_| | | | (_| | (_| | (_| | | | | | |
+     |_|\_\__,_|_|  \__,_|\__,_|\__,_|_| |_| |_|
+--
+--           KARADAM - V.1 -
     *********************************************************
     *********************************************************
 """
 
 menu = """
  [-1-]  BEN KİMİM
- [-2-]  ÇIKIŞ YAP
+ [-2-]  INSTAGRAM
+ [-3-]  GITHUB
+ [-4-]  ÇIKIŞ YAP
  """
 
-
+social = """
+ [-1-]  INSTAGRAM
+ [-2-]  GITHUB
+ [-4-]  ÇIKIŞ YAP
+ """
 kimim = """
 BEN KİMİM :
-            TFKARADAM
-Eğlencesine yapılmış bir tanıtma tooludur
+            KARADAM
+KISACA KİMSİN SORULARINI ATLATMAK
+TANIŞMA FASTINI ATLATMAK İÇİN YAPILMIŞTIR 
+BİLİŞİM KONUSUYLA BİLGİLİ VE BAZI ŞEYLERE İLGİLİ
+ALTINA BELLİ BİR ŞEKİLDE KATAGORİZE ETTİM
 ________________________________________________
 YETENEKLERİM : 
-GÜÇ :    [***************      ] %70
+GÜÇ :    [************          ] %50
 HIZ :    [**********************] %100
-HACK :   [********************* ] %96
+HACK :   [******************    ] %80
 ________________________________________________
+KİCKBOKS : [****************      ]%70
 SOLAK :    [**********************]%100
 GAMER :    [*****                 ]%25
 ÇEVRE :    [*                     ]%5
-________________________________________________
-Web Site : tfkaradam.com
 ________________________________________________
                 ---- SON  ----
 """
@@ -60,20 +67,16 @@ while(1):
     if (secim == "1"):
         print(kimim)
         input()
-    if secim == "":
+    if secim == "2":
         os.system("clear")  
         webbrowser.open("https://www.instagram.com/turkerarabacii")
     if secim == "3":
         os.system("clear")
-        webbrowser.open("https://tfkaradam.com")   
-    if secim == "4":
-        os.system("clear")
         webbrowser.open("https://www.github.com/tfkaradam")          
 
-    elif (secim == "2"):
+    elif (secim == "4"):
         os.system("clear")
-        os.system("figlet Good Bye")
+        os.system("figlet Tekrar Gel")
         time.sleep(0.5)
         quit()
-
 
