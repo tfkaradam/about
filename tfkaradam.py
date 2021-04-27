@@ -69,7 +69,7 @@ while(1):
         input()
     if secim == "2":
         os.system("clear")  
-        webbrowser.open("https://www.instagram.com/turkerarabacii")
+        webbrowser.open("https://www.instagram.com/tfkaradam")
     if secim == "3":
         os.system("clear")
         webbrowser.open("https://www.github.com/tfkaradam")          
